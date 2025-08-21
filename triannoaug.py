@@ -9,8 +9,8 @@ from losses import dice_loss_3d
 from scipy.ndimage import binary_fill_holes
 
 # ---- Config ----
-image_dir = "/data/nas/erna/scan256/TheFixedScan256"
-mask_dir = "/data/nas/erna/mask256/TheFixedMask256"
+image_dir = "Path_to_scans"
+mask_dir = "Path_to_masks"
 batch_size = 1
 epochs = 25
 lr = 1e-4
