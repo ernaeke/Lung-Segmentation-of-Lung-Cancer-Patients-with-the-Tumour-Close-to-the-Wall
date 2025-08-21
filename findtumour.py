@@ -7,7 +7,7 @@ def get_coordinates(event, x, y, flags, param):
         print(f"Coordinates: x={x}, y={y} | Color (BGR): {b}, {g}, {r}")
 
 # Load your JPG image
-img = cv2.imread("/Users/ernaeliasdottir/Desktop/UoM 2024-2025/Önn 3/Research Project/Finale/FixNoAugjustgenmask_noaugtrain_predictions_3d_output_25epochs/flippedright_100019_1_C_edited/slice_118.jpg")
+img = cv2.imread("pathtoimage")
 
 cv2.imshow("image", img)
 cv2.setMouseCallback("image", get_coordinates)
