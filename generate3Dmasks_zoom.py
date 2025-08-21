@@ -444,9 +444,9 @@ if __name__ == "__main__":
     model.load_state_dict(torch.load("/home/erna/lung_seg/unet3d_epoch25.pth", map_location=device))
     model.eval()
 
-    input_dir   = "/data/nas/erna/scan256/TheFixedScan256"
-    mask_dir    = "/data/nas/erna/mask256/TheFixedMask256"
-    centers_csv = "/home/erna/lung_seg/tumour_centres.csv"
+    input_dir   = "Path_to_scans"
+    mask_dir    = "Path_to_masks"
+    centers_csv = "Path_to_coordinates_of_tumours.csv"
     output_root = "zoomGenwithaug25epochs"
 
     os.makedirs(output_root, exist_ok=True)
