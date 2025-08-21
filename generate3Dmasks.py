@@ -93,7 +93,7 @@ def generate_mask_3d(model, scan_path, output_root, mask_dir, csv_writer):
 
 if __name__ == "__main__":
     model = UNet3D().cuda()
-    model.load_state_dict(torch.load("/home/erna/lung_seg/unet3d_epoch25.pth"))
+    model.load_state_dict(torch.load("path_to.pth"))
     model.eval()
 
     input_dir = "Path_to_scans"
