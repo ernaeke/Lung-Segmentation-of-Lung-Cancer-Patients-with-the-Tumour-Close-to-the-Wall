@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-dice_csv = "/home/erna/zoomGenwithaug25epochs/dice_regions.csv"
+dice_csv = "path_to.csv"
 output_png = "25epochsFixeddice_plot_withaug_ROI3.png"
 
 # Read CSV
