@@ -441,7 +441,7 @@ if __name__ == "__main__":
     print(f"Using device: {device}")
 
     model = UNet3D().to(device)
-    model.load_state_dict(torch.load("/home/erna/lung_seg/unet3d_epoch25.pth", map_location=device))
+    model.load_state_dict(torch.load("path_to.pth", map_location=device))
     model.eval()
 
     input_dir   = "Path_to_scans"
