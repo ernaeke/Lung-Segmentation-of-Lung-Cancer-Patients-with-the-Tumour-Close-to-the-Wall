@@ -96,8 +96,8 @@ if __name__ == "__main__":
     model.load_state_dict(torch.load("/home/erna/lung_seg/unet3d_epoch25.pth"))
     model.eval()
 
-    input_dir = "/data/nas/erna/scan256/TheFixedScan256"
-    mask_dir = "/data/nas/erna/mask256/TheFixedMask256"
+    input_dir = "Path_to_scans"
+    mask_dir = "Path_to_masks"
     output_root = "3Fixedwithaug25epochs"
     os.makedirs(output_root, exist_ok=True)
 
