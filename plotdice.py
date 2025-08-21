@@ -3,7 +3,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 
 # --- paths ---
-dice_csv = "/home/erna/3Fixedwithaug25epochs/dice_scores.csv"
+dice_csv = "path_to.csv"
 output_png = "Fixed_dice_plot_withaug3.png"
 
 # --- read & detect column ---
